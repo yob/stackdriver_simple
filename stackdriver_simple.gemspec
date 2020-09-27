@@ -13,5 +13,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency("rspec", "~> 3.5")
 
-  spec.add_dependency("google-cloud-monitoring")
+  spec.add_dependency("google-cloud-monitoring", "< 1.0")
 end
