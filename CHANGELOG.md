@@ -1,4 +1,4 @@
-0.2.0 (XXX)
+0.2.0 (27th September 2020)
 
 * require google-cloud-monitoring >= 1.0
 

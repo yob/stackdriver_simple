@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "stackdriver_simple"
-  spec.version = "0.1.0"
+  spec.version = "0.2.0"
   spec.summary = "An easy way to submit metrics to stackdriver"
   spec.description = "An easy way to submit metrics to stackdriver"
   spec.license = "MIT"
