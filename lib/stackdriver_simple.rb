@@ -10,7 +10,7 @@ class StackdriverSimple
     raise ArgumentError if @google_cloud_project.include?(" ")
   end
 
-  # This assumes the following two ENV vars are set:
+  # This assumes the following ENV var is set:
   #
   # * GOOGLE_APPLICATION_CREDENTIALS=<path-to-credentials>
   def submit_gauge(name, value)
